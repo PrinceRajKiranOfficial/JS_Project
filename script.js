@@ -17,7 +17,7 @@ function init() {
     loadTasksFromStorage();
     renderTasks();
     updateClockGreeting();
-    setInterval(updateClockGreeting, 30000); // Update every 30 seconds
+    setInterval(updateClockGreeting, 10000); // Update every 10 seconds
 }
 
 // Load tasks from localStorage
